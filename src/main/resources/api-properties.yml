@@ -1,0 +1,19 @@
+application:
+  name: esmd-fhir-client-java
+userinfo:
+  mailboxid: ESD002
+
+api:
+  environment:
+    dev: https://dev.cpiapigateway.cms.gov/api/esmd/v1
+    val: https://val.cpiapigateway.cms.gov/api/esmd/v1
+    uat: https://val.cpiapigateway.cms.gov/api/esmd/ext/v1
+    prod: https://cpiapigateway.cms.gov/api/esmd/ext/v1
+  url:
+    auth: /auth/generate
+    pa-reject-notification: /objects/notification/pareject
+    admin-error-notification: /objects/notification/admin
+    notification-status: /objects/status/rc
+  scope:
+    notification: rc/notification
+    status: rc/status
