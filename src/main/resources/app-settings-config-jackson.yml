@@ -5,8 +5,8 @@ appSettings:
   endPointBaseUrl: "https://val.cpiapigateway.cms.gov"
 
   authenticationAPI:
-    clientId: "1c931b1dc3th8n2c6q5rk1pbip"
-    clientSecret: "icj3couvga0ahv08sjqinapip8t3eqgecqbm2fh03b331pt0p7"
+    clientId: "ENTER YOUR CLIENT ID"
+    clientSecret: "ENTER YOUR CLIENT SECRET"
     scope: "hih/esmdfhir"
     endpointURL: "${endPointBaseUrl}/api/esmdf/auth/generate"
     contentType: "application/json"
