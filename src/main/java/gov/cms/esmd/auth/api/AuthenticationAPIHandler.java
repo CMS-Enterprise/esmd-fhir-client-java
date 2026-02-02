@@ -52,7 +52,8 @@ public class AuthenticationAPIHandler {
             Map<String, String> headerMap = Map.of(
                     CLIENT_ID, authenticationAPISettings.getClientId(),
                     CLIENT_SECRET, authenticationAPISettings.getClientSecret(),
-                    SCOPE, authenticationAPISettings.getScope()
+                    SCOPE, authenticationAPISettings.getScope(),
+                    USER_AGENT, authenticationAPISettings.getUserAgent()
             );
 
 
