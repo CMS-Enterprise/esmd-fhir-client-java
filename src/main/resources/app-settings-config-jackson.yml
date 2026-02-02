@@ -11,6 +11,7 @@ appSettings:
     endpointURL: "${endPointBaseUrl}/api/esmdf/auth/generate"
     contentType: "application/json"
     httpClientRequestTimeOutSeconds: 2.0
+    userAgent: "Refyne-FHIR-Client/1.0"
 
   presignedURLAPI:
     endpointURL: "${endPointBaseUrl}/api/esmdf/v1/fhir/DocumentReference/$generate-presigned-url"

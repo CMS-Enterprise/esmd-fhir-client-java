@@ -52,6 +52,7 @@ public class AppConfigJackson {
             private String endpointURL;
             private String contentType;
             private double httpClientRequestTimeOutSeconds;
+            private String userAgent;
         }
 
 
